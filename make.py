@@ -81,7 +81,7 @@ base.configure_common_apps()
 
 # developing...
 if ("1" == config.option("develop")):
-  exit(0)
+  exit(0) #testing
   if not dependence.check_dependencies():
     exit(1)
   build_server.build_server_develop()
