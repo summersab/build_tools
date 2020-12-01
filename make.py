@@ -81,7 +81,7 @@ if ("1" == config.option("update")):
 
 # developing...
 if ("1" == config.option("develop")):
-  exit(0) #testing12345
+  exit(0) #testing123456
   if not dependence.check_dependencies():
     exit(1)
   build_server.build_server_develop()
